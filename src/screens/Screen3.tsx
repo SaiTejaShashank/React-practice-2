@@ -1,12 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { apiResponseType } from '../types';
-import {
-  ListItem,
-  ListHeaderComponent,
-  ListFooterComponent,
-  ListSeparatorComponent,
-} from '../components';
+import ListItem from '../components/ListComponents/ListItem';
+import ListHeaderComponent from '../components/ListComponents/ListHeaderComponent';
+import ListFooterComponent from '../components/ListComponents/ListFooterComponent';
+import ListSeparatorComponent from '../components/ListComponents/ListSeparatorComponent';
 
 export default function Screen3() {
   const [data, setData] = useState<apiResponseType[]>([]);

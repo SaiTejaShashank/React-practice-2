@@ -4,7 +4,6 @@ export type RootStackParamList = {
   Screen3: undefined;
   Screen4: undefined;
   Screen5: undefined;
-  Screen6: undefined;
   ListingScreen: undefined;
 };
 

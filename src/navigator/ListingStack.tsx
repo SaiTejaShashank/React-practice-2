@@ -33,7 +33,6 @@ const MainStack = () => {
       <Stack.Screen name="Screen3" component={Screens.Screen3} />
       <Stack.Screen name="Screen4" component={Screens.Screen4} />
       <Stack.Screen name="Screen5" component={Screens.Screen5} />
-      <Stack.Screen name="Screen6" component={Screens.Screen6} />
       <Stack.Screen name="ListingScreen" component={Screens.ListingScreen} />
     </Stack.Navigator>
   );
